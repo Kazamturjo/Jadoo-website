@@ -11,10 +11,10 @@ const Nav = () => {
   return (
     <div className=''>
       <nav className="bg-transparent p-4  bg-white flex justify-between fixed top-0 w-full z-50 transition duration-300">
-        <div className="logo md:mb-0 sm:flex sm:ml-32 flex">
+        <div className="sm:flex sm:ml-32 flex">
           <img src={MysvgLogo} alt="logo" className="" />
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden ml-20">
           <button className="text-black focus:outline-none" onClick={toggleMenu}>
             <svg
               className="h-6 w-6 ml-4 mr-3"
@@ -27,7 +27,7 @@ const Nav = () => {
             </svg>
           </button>
         </div>
-        <div className="menu flex flex-col md:flex-row items-center space-x-20 mr-52">
+        <div className="menu flex flex-col md:flex-row items-center space-x-20 sm:mr-96">
           <div className={`menu ${isOpen ? 'block' : 'hidden'} md:flex md:space-x-20`}>
             <ul className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-14">
               <li className="mr-4">
@@ -36,7 +36,7 @@ const Nav = () => {
                 </a>
               </li>
               <li className="mr-4">
-                <a href="" className="text-black">
+                <a href="#destination" className="text-black">
                   Destination
                 </a>
               </li>

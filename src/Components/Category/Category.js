@@ -6,14 +6,14 @@ import icon4 from '../../assets/icon4.png'
 
 const Category = () => {
   return (
-    <div>
+    <div className='mt-16'>
         <div className='text-center'>
             <span>CATEGORY</span>
             <h2 className='text-4xl font-bold'>We Offter Best Services</h2>
         </div>
-        <div className='sm:flex  flex-col-4 justify-center sm:m-11 sm:space-x-72 p-20 space-y-11 sm:-space-y-1  '>
-            <div>
-                <div className='  '>
+        <div className='sm:flex  flex-col-4 justify-center sm:m-11 sm:space-x-48 p-20 space-y-11  sm:-space-y-1  '>
+            <div className=''>
+                <div className=' '>
                     <img src={icon1} alt='icon1'/>
                 </div>
                 <span>Calculated Weather</span>

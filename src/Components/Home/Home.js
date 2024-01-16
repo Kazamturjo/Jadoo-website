@@ -3,7 +3,7 @@ import hero from '../../assets/hero-img.png';
 
 const Home = () => {
   return (
-    <div className='sm:ml-32 mx-4 md:flex mt-16 '>
+    <div className='sm:ml-32 mx-11 md:flex mt-16 '>
         
       <div className='mt-32 md:w-1/2 md:pr-8 '>
         <span className='text-orange-600 font-bold'>Best Destination around the world</span>
@@ -14,7 +14,7 @@ const Home = () => {
         </p>
       
         <div className='flex items-center mt-4 '>
-          <button className='p-3 bg-yellow-500 rounded-xl text-white hover:bg-yellow-400 sm:text-xl'>Find Out More</button>
+          <button className='sm:p-3 p-1   bg-yellow-500 rounded-xl text-white hover:bg-yellow-400 sm:text-xl  text-sm'>Find Out More</button>
           <div className='mx-6 flex sm:space-x-5 space-x-2'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-11 h-8 md:w-14 md:h-11 rounded-full bg-orange-500 hover:cursor-pointer text-white hover:bg-orange-700">
               <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
