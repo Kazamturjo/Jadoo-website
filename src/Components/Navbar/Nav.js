@@ -72,7 +72,7 @@ const Nav = () => {
               </a>
             </li>
             <li>
-              <button className="mr-2 border border-black text-black px-2 sm:py-2 rounded">Sign up</button>
+              <button className="mr-2 border border-black text-black px-2 sm:py-2 md:p-2 rounded">Sign up</button>
             </li>
             <li className="actions mt-0 md:mt-0">
               <select className="bg-transparent text-black border-none">

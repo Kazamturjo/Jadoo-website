@@ -47,7 +47,7 @@ const About = () => {
 
   return (
 
-    <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:mt-24 m-8 sm:m-0'>
+    <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:mt-24 m-8 sm:mx-11'>
       
     <div className=''>
       <span className=' font-light'>Testimonials</span>

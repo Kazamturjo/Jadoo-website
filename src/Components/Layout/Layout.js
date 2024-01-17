@@ -6,6 +6,7 @@ import Destination from '../Destination/Destination'
 import Guide from '../Guide/Guide'
 import About from '../About/About'
 import Newsletter from '../NewsLetter/NewsLetter'
+import Sponser from '../Sponser/Sponser'
 
 const Layout = () => {
   return (
@@ -16,6 +17,7 @@ const Layout = () => {
         <Destination/>
         <Guide/>
         <About/>
+        <Sponser/>
         <Newsletter/>
     </div>
   )
