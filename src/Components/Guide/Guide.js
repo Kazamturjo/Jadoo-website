@@ -7,8 +7,8 @@ import icon from '../../assets/icons8-near-me-50.png';
 
 const Guide = () => {
   return (
-    <div className="">
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 ">
+    <div className="sm:ml-28 mx-11  mt-16" id='booking'>
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 space-x-11 ">
         <div className="m-11">
           <div>
             <span className="font-bold text-gray-500">Easy and fast</span>

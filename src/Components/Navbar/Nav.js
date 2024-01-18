@@ -29,11 +29,14 @@ const Nav = () => {
     <div>
       <nav
         className={`p-4 flex justify-between fixed top-0 w-full z-50 transition duration-300 ${
-          scrolling ? 'bg-white' : 'bg-transparent'
+          scrolling ? 'bg-white drop-shadow-sm' : 'bg-transparent'
         }`}
       >
         <div className="sm:flex sm:ml-32 flex">
+          <a href='/'>
+
           <img src={MysvgLogo} alt="logo" />
+          </a>
         </div>
         <div className="md:hidden ml-20">
           <button className="text-black focus:outline-none" onClick={toggleMenu}>
@@ -52,7 +55,7 @@ const Nav = () => {
           <ul className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-14 sm:mr-96">
             {/* Add your menu items here */}
             <li className="mr-4">
-              <a href="" className="text-black">
+              <a href="#services" className="text-black">
                 Services
               </a>
             </li>
@@ -62,12 +65,12 @@ const Nav = () => {
               </a>
             </li>
             <li className="mr-4">
-              <a href="" className="text-black">
+              <a href="#booking" className="text-black">
                 Booking
               </a>
             </li>
             <li className="mr-4">
-              <a href="" className="text-black">
+              <a href="#testimonial" className="text-black">
                 Testimonial
               </a>
             </li>

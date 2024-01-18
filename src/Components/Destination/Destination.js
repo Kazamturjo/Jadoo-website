@@ -15,7 +15,7 @@ const Destination = () => {
           {src: dest2, alt:'img2', title:"London, UK", price:"$4.42", src2: send, p:"12 days trip" },
           {src: dest3, alt:'img3', title:"Paris, France", price:"$6.42", src2: send, p:"14 days trip"}
         ].map((image, index) => (
-          <div key={index} className="group overflow-hidden rounded-xl transition-transform transform hover:scale-105 drop-shadow-2xl w-4/6 m-auto ">
+          <div key={index} className="group overflow-hidden rounded-xl transition-transform transform hover:scale-105 drop-shadow-2xl w-8/12 m-auto ">
             <img className="w-full object-cover rounded-t-xl drop-shadow-2xl " src={image.src} alt={image.alt} />
             <div className="p-4">
               <p className="text-xl font-semibold">{image.title}</p>

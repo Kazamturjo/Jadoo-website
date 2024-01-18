@@ -6,7 +6,7 @@ import icon4 from '../../assets/icon4.png'
 
 const Category = () => {
   return (
-    <div className='mt-16'>
+    <div className='mt-40' id='services'>
         <div className='text-center'>
             <span>CATEGORY</span>
             <h2 className='text-4xl font-bold'>We Offter Best Services</h2>
@@ -16,7 +16,7 @@ const Category = () => {
                 <div className=' '>
                     <img src={icon1} alt='icon1'/>
                 </div>
-                <span>Calculated Weather</span>
+                <span className='font-bold text-lg'>Calculated Weather</span>
                 <p>Built Wicket longer admire<br/>
                     do barton vanity itself do <br/>
                     in it.
@@ -26,7 +26,7 @@ const Category = () => {
                 <div className='  '>
                     <img src={icon2} alt='icon1'/>
                 </div>
-                <span>Best Flights</span>
+                <span className='font-bold text-lg'>Best Flights</span>
                 <p>Engrossed listening.Park<br/>
                     gate sell they west hard<br/>
                     for the.
@@ -36,17 +36,17 @@ const Category = () => {
                 <div className='  '>
                     <img src={icon3} alt='icon1'/>
                 </div>
-                <span>Local Events</span>
+                <span className='font-bold text-lg'>Local Events</span>
                 <p>Barton vanity itself do in it.<br/>
                     Preferd to mern it <br/>
                     engrossed listening.
                 </p>
             </div>
-            <div>
-                <div className='  '>
-                    <img src={icon4} alt='icon1'/>
+            <div className=''>
+                <div className=''>
+                    <img src={icon4} alt='icon1'className=''/>
                 </div>
-                <span>Customization</span>
+                <span className='font-bold text-lg'>Customization</span>
                 <p>We deliver outsourced<br/>
                     aviaton services for <br/>
                     military customers.
